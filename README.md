@@ -143,3 +143,53 @@ Sequencing Data
                                                                                     ---
 
                                                                                     Portfolio project | NGS Bioinformatics | Variant Analysis | Python | Linux
+
+4. Repository Structure
+
+The project is organized into the following directories:
+
+Directory| Description
+"scripts/"| Python scripts for variant annotation and Excel report generation
+"results/qc/"| Sequencing quality control reports
+"results/variants/"| Variant call files (VCF)
+"results/validation/"| Depth, pileup, and variant-level evidence
+"results/reports/"| Analysis reports
+"results/portfolio/"| Portfolio deliverables
+
+5. Variant Validation
+
+Twenty selected variants were investigated using available sequencing evidence.
+
+The validation workflow includes:
+
+- Examination of sequencing depth.
+- Inspection of read-level allele support.
+- Calculation of variant allele fraction (VAF), where sufficient evidence is available.
+- Integration of evidence into structured tables.
+- Identification of variants requiring further investigation.
+
+These analyses provide technical evidence and do not constitute independent clinical validation.
+
+6. Project Deliverables
+
+The repository contains:
+
+- Sequencing quality control reports.
+- Processed variant call files.
+- Variant validation tables.
+- Python scripts for annotation and report generation.
+- Analysis reports and portfolio materials.
+
+7. Limitations
+
+This project is a technical bioinformatics demonstration using publicly available sequencing data.
+
+The analysis focuses on chromosome 21 and a predefined set of 20 variants.
+
+The findings should not be interpreted as clinical diagnoses. Additional validation would be required before any clinical application.
+
+8. Author
+
+Bioinformatics Portfolio Project
+
+Focus: Next-Generation Sequencing, Variant Analysis, Python, and Linux.
