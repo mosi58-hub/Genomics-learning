@@ -1,0 +1,20 @@
+# Raw sequencing data
+chr21_analysis/data/
+
+# Reference genome
+chr21_analysis/reference/
+
+# Alignment files
+chr21_analysis/results/alignment/
+
+# Large annotation outputs
+chr21_analysis/results/annotation/
+
+# Archived files
+chr21_analysis/archive/
+
+# Temporary files
+*.tmp
+*.log
+__pycache__/
+.ipynb_checkpoints/
