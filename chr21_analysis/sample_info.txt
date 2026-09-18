@@ -1,0 +1,4 @@
+Sample accession: ERR297183
+Target: Chromosome 21
+Reference assembly: GRCh38
+Project status: Fresh restart
